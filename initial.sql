@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS estabelecimentos (
     numero TEXT,
     complemento TEXT,
     bairro TEXT,
-    cep VARCHAR(8),
+    cep text,
     uf VARCHAR(2),
     municipio VARCHAR(7),
     ddd_1 VARCHAR(4),
